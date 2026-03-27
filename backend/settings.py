@@ -88,14 +88,11 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
 
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Todo API',
     'DESCRIPTION': 'A simple todo API with JWT authentication',
     'VERSION': '1.0.0',
+    
 }
-
-CORS_ALLOWED_ORIGINS = [
-    "https://reimagined-happiness-r46gr544gqq6fx67w-5173.app.github.dev",
-]
-
