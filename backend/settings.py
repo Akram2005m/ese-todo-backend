@@ -96,7 +96,6 @@ SPECTACULAR_SETTINGS = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    'https://upgraded-space-pancake-jj754pjj56q924j4-5173.app.github.dev',
-    'https://upgraded-space-pancake-jj754pjj56q924j4-5174.app.github.dev',
-    'https://upgraded-space-pancake-jj754pjj56q924j4-5175.app.github.dev',
+    "https://reimagined-happiness-r46gr544gqq6fx67w-5173.app.github.dev",
 ]
+
