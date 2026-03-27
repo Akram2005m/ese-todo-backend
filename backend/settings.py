@@ -87,14 +87,16 @@ REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
 
-CORS_ALLOWED_ORIGINS = [
-    os.getenv('FRONTEND_URL', 'http://localhost:3000'),
-]
-
-CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Todo API',
     'DESCRIPTION': 'A simple todo API with JWT authentication',
     'VERSION': '1.0.0',
 }
+
+CORS_ALLOWED_ORIGINS = [
+    'https://upgraded-space-pancake-jj754pjj56q924j4-5173.app.github.dev',
+    'https://upgraded-space-pancake-jj754pjj56q924j4-5174.app.github.dev',
+    'https://upgraded-space-pancake-jj754pjj56q924j4-5175.app.github.dev',
+]
